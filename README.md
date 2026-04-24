@@ -1,0 +1,9 @@
+## 🧴 Advanced Analysis and Predictive Modelling for Identifying Erythemato-Squamous Disease Types
+
+The differential diagnosis of erythemato-squamous diseases (ESDs) remains a significant challenge in dermatology due to the substantial overlap in visual and clinical symptoms across multiple conditions. This project aims to improve diagnostic precision by accurately classifying six distinct ESD categories using a combination of clinical and histopathological features, supporting more informed and reliable clinical decision-making.
+
+The analysis was conducted on a dataset of 366 patients, where unsupervised learning techniques such as K-means clustering were integrated with Factor Analysis for Mixed Data (FAMD) to identify underlying disease patterns. Given the complexity of mixed-type variables and imbalanced class distributions within clusters, the SMOTE (Synthetic Minority Over-sampling Technique) method was applied to enhance class representation and improve model learning.
+
+A range of machine learning models—including Naive Bayes, Ridge, Lasso, Random Forest, Support Vector Machine (SVM), and Decision Tree classifiers—were trained and evaluated. Exploratory and clustering results revealed that certain conditions, such as Psoriasis and Lichen Planus, formed clearly distinguishable clusters. For more complex and overlapping disease groups, the Decision Tree model demonstrated superior performance, achieving 98% accuracy on the test dataset without signs of overfitting.
+
+Overall, this project highlights the effectiveness of interpretable machine learning approaches, particularly Decision Trees, in supporting the differential diagnosis of ESDs. The findings emphasize the value of data-driven tools in assisting dermatologists, improving diagnostic accuracy, and reducing the risk of misclassification in clinical practice.
